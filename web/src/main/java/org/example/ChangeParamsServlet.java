@@ -31,6 +31,7 @@ public class ChangeParamsServlet extends HttpServlet {
             UserDto user = (UserDto) session.getAttribute("user");
             String param = req.getParameter("param");
             String value = req.getParameter("newValue");
+            String value1 = req.getParameter("newValue");
             boolean check = true;
             if (param.equalsIgnoreCase("name")) {
                 if (Service.validateName(value)) {
