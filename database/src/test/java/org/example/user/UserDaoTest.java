@@ -21,10 +21,10 @@ public class UserDaoTest {
         users.add(new User(1L, "Игорь", "e5535", "erer@mail.ru", 12, products));
         users.add(new User(2L, "Андрей", "erere", "gfg@gmail.com", 34, new ArrayList<>()));
         users.add(new User(3L, "Аня", "gfg", "ere@mail.ru", 35, new ArrayList<>()));
-        users.add(new User(4L, "Максим", "45353", "dgdd@mail.ru", 11, new ArrayList<>()));
+        users.add(new User(4L, "Maxim", "45353", "dgdd@mail.ru", 11, new ArrayList<>()));
         users.add(new User(5L, "Влад", "rtrte", "gfgd@mail.ru", 23, new ArrayList<>()));
         users.add(new User(6L, "Инна", "dgdgd", "kfksfk@mail.ru", 22, new ArrayList<>()));
-        users.add(new User(7L, "Антон", "gdgd", "dgdg@mail.ru", 42, new ArrayList<>()));
+        users.add(new User(7L, "Владий", "gdgd", "dgdg@mail.ru", 42, new ArrayList<>()));
         users.add(new User(8L, "Иннокентий", "gddg", "dfdgd", 11, new ArrayList<>()));
         int length = users.size();
         userDao.writeUsers("D:\\JAVA\\enterpriseCourse\\Hm2\\Task2\\" +
