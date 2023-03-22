@@ -16,8 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class ProductDaoJson implements ProductDao {
-    private static final String PATH_TO_FILE = "D:\\JAVA\\enterpriseCo" +
-            "urse\\Hm2\\Task2\\database\\src\\main\\files\\products.json";
+    private static final String PATH_TO_FILE = "E:\\AAA\\JavaGuru\\Temp\\MegaIgor1\\database\\src\\main\\files\\products.json";
 
     public List<Product> getProducts(String path) {
         List<Product> products = new ArrayList<>();

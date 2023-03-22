@@ -8,8 +8,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class ProductDaoJsonTest {
-    private static final String PATH_TO_FILE = "D:\\JAVA\\enterprise" +
-            "Course\\Hm2\\Task2\\database\\src\\main\\files\\products.json";
+    private static final String PATH_TO_FILE = "E:\\AAA\\JavaGuru\\Temp\\MegaIgor1\\database\\src\\main\\files\\products.json";
     private final ProductDao productDao = new ProductDaoJson();
 
     @Test

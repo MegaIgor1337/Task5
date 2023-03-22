@@ -16,8 +16,8 @@ import java.util.List;
 import java.util.Optional;
 
 public class UserDaoJson implements UserDao {
-    private static final String PATH_TO_FILE = "D:\\JAVA\\enterpriseCourse\\Hm2\\Ta" +
-            "sk2\\database\\src\\main\\files\\users.json";
+    private static final String PATH_TO_FILE = "E:\\AAA\\JavaGuru\\Temp\\MegaIgo" +
+            "r1\\database\\src\\main\\files\\users.json";
 
     public Optional<User> findById(long id) throws NoSuchUserException {
         List<User> users = getUsers(PATH_TO_FILE);

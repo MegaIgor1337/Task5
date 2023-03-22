@@ -23,8 +23,9 @@ public class AuthenticationServlet extends HttpServlet {
         try (var writer = resp.getWriter()) {
             String name = req.getParameter("name");
             String pwd = req.getParameter("pwd");
+            String capcha = req.getParameter("capcha");
             UserDto user = Service.findUser(name, pwd);
-            if (user != null) {
+            if (user != null && capcha.equals("12345")) {
                 writer.println("<h1> You logged in successfully </h1>");
                 writer.println("<br/><a href=\"menu.html\">User menu</a>\n");
                 HttpSession session = req.getSession();

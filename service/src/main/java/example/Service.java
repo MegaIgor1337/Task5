@@ -14,10 +14,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Service {
-    private final String PATH_TO_FILE_USERS = "D:\\JAVA\\enterpriseCourse\\Hm2\\Task2\\dat" +
-            "abase\\src\\main\\files\\users.json";
-    private final String PATH_TO_FILE_PRODUCTS = "D:\\JAVA\\enterpriseCou" +
-            "rse\\Hm2\\Task2\\database\\src\\main\\files\\products.json";
+    private final String PATH_TO_FILE_USERS = "E:\\AAA\\JavaGuru\\Temp\\MegaIgor1\\database\\src\\main\\files\\users.json";
+    private final String PATH_TO_FILE_PRODUCTS = "E:\\AAA\\JavaGuru\\Temp\\MegaIgor1\\database\\src\\main\\files\\products.json";
     private final UserDao userDao = new UserDaoJson();
     private final ProductDao productDao = new ProductDaoJson();
 

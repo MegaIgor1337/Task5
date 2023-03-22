@@ -27,10 +27,8 @@ public class UserDaoTest {
         users.add(new User(7L, "Владий", "gdgd", "dgdg@mail.ru", 42, new ArrayList<>()));
         users.add(new User(8L, "Иннокентий", "gddg", "dfdgd", 11, new ArrayList<>()));
         int length = users.size();
-        userDao.writeUsers("D:\\JAVA\\enterpriseCourse\\Hm2\\Task2\\" +
-                "database\\src\\main\\files\\users.json", users);
-        List<User> usersFromJson = userDao.getUsers("D:\\JAVA\\enterpriseCourse\\Hm2\\" +
-                "Task2\\database\\src\\main\\files\\users.json");
+        userDao.writeUsers("E:\\AAA\\JavaGuru\\Temp\\MegaIgor1\\database\\src\\main\\files\\users.json", users);
+        List<User> usersFromJson = userDao.getUsers("E:\\AAA\\JavaGuru\\Temp\\MegaIgor1\\database\\src\\main\\files\\users.json");
         for (int i = 0; i < length; i++) {
             assertEquals(users.get(i).getId(), usersFromJson.get(i).getId());
             assertEquals(users.get(i).getName(), usersFromJson.get(i).getName());

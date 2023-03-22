@@ -19,10 +19,8 @@ import static org.junit.Assert.*;
 
 public class UserServiceTest {
 
-    private static final String PATH_TO_FILE_USERS = "D:\\JAVA\\enterpriseCourse\\Hm" +
-            "2\\Task2\\database\\src\\main\\files\\users.json";
-    private static final String PATH_TO_FILE_PRODUCTS = "D:\\JAVA\\enterpriseCourse\\Hm2\\Ta" +
-            "sk2\\database\\src\\main\\files\\products.json";
+    private static final String PATH_TO_FILE_USERS = "E:\\AAA\\JavaGuru\\Temp\\MegaIgor1\\database\\src\\main\\files\\users.json";
+    private static final String PATH_TO_FILE_PRODUCTS = "E:\\AAA\\JavaGuru\\Temp\\MegaIgor1\\database\\src\\main\\files\\products.json";
     private Service userService = new Service();
     private UserDao userDao = new UserDaoJson();
     private ProductDao productDao = new ProductDaoJson();
